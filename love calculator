@@ -20,7 +20,14 @@ name1=input('enter the first name:')
 name2=input('enter the second name:')
 love_score=random.randint(1,100)
 print(f'the percentage of love b/w { name1 } and { name2 } is {love_score}%')
-love_calculate()
+love_calculate() 
+
+output:
+enter the first name:anjanadri
+enter the second name:Olivia Rodrigo
+the percentage of love b/w anjanadri and Olivia Rodrigo is 71%
+welcome to love calculator.
+
 
 
 
