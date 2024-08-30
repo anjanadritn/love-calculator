@@ -1,12 +1,12 @@
-Steps for the Love Calculator Program
+Steps for the Love Calculator Program:
 
-    Import the random Module:
-        Purpose: The random module is used to generate random numbers, which in this case is used to simulate a random "love score."
-        Code: import random
-        Explanation: This statement imports the random module so you can use its functions, like randint, to generate random numbers.
+Import the random Module:
+    Purpose: The random module is used to generate random numbers, which in this case is used to simulate a random "love score."
+    Code: import random
+    Explanation: This statement imports the random module so you can use its functions, like randint, to generate random numbers.
 
-    Define the love_calculate Function:
-        Purpose: The function encapsulates the logic of the love calculator. It handles user interaction and generates the love score.
+Define the love_calculate Function:
+    Purpose: The function encapsulates the logic of the love calculator. It handles user interaction and generates the love score.
         
 
 
