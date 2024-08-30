@@ -1,0 +1,31 @@
+Steps for the Love Calculator Program
+
+    Import the random Module:
+        Purpose: The random module is used to generate random numbers, which in this case is used to simulate a random "love score."
+        Code: import random
+        Explanation: This statement imports the random module so you can use its functions, like randint, to generate random numbers.
+
+    Define the love_calculate Function:
+        Purpose: The function encapsulates the logic of the love calculator. It handles user interaction and generates the love score.
+        
+
+
+python code:
+
+import random
+def love_calculate():
+  print('welcome to love calculator')
+
+name1=input('enter the first name:')
+name2=input('enter the second name:')
+love_score=random.randint(1,100)
+print(f'the percentage of love b/w { name1 } and { name2 } is {love_score}%')
+love_calculate()
+
+
+
+Explanation:
+
+    Import the random Module: This is done correctly.
+    Define love_calculate Function: The function is defined to print a welcome message, take user input, and calculate a random love score.
+    Call the Function: The love_calculate() function is called at the end to execute the program.
